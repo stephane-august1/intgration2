@@ -1,0 +1,325 @@
+@font-face {
+    font-family: partybusiness;
+    src: url(./nancy/partybusiness.ttf);
+}
+
+@font-face {
+    font-family: anicb;
+    src: url(./pete/anicm___.ttf);
+}
+
+@font-face {
+    font-family: tngani;
+    src: url(./tengwar_annatar/tngani.ttf);
+}
+@font-face {
+    font-family: anicm;
+    src: url(./pete/anicm___.ttf);
+}
+.partybusiness {
+    font-family: "partybusiness" !important;
+    font-size: 3rem;
+}
+
+.capitalise {
+    font-size: 5rem;
+}
+
+.navbar {
+    background-color: rgb(255, 94, 0) !important;
+    font-family: "anicb" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+.navbar-brand{
+
+
+letter-spacing: 1px;
+
+}
+.nav-item:first-child {
+    border: none;
+}
+
+.nav-item {
+    width: 140px!important;
+    border-left: 1px solid whitesmoke;
+    margin-left: 3%;
+    text-align: center;
+}
+.nav-link{
+    
+width: 100%;
+}
+.active {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+.carousel-inner {
+    font-family: "partybusiness" !important;
+    font-size: 2rem;
+}
+
+.carousel-inner img {
+    
+    max-height: 280px !important;
+}
+
+
+.verticalcenter {
+    height: 80%;
+}
+
+.extension {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.gollum {
+    margin-left: 20%;
+    border-radius: 50px !important;
+}
+
+.wanted {
+    position: relative;
+    background-image: url(./bg_dark.png);
+   
+  height: 100%;
+   border: 2px solid black;
+  
+}
+.card-body{
+    opacity: 1 !important;
+}
+.wanted img {
+    opacity: 0.5;
+    width: 100%;
+    height: 65%;
+   
+}
+.vignette {
+    opacity: 0.8;
+   
+}
+.card-p2 .wanted {
+    opacity: 0.6;
+    height: 300px;
+}
+.wanted .coins {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.8;
+    z-index: 1;
+    width: 80%;
+    
+    box-shadow: 1.4px 1.4px 1.4px 1.4px rgb(150, 150, 150); 
+}
+
+.wanted .coins .reward {
+    text-align: center;
+    padding: 5% 15%;
+    font-weight: bold;
+
+}
+
+.wanted .gandalf {
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    color: whitesmoke;
+    font-size: 50px;
+    font-size: 1.9rem;
+}
+
+.wanted:hover .coins {
+    visibility: hidden;
+
+}
+.wanted:hover{
+opacity: 1;
+}
+.wanted:hover img {
+    opacity: 1;
+
+}
+
+.wanted:hover .gandalf {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.imglike {
+    height: 14%;
+    width: 20%;
+}
+
+footer .navbar {
+    background-color: rgb(255, 94, 0) !important;
+    font-family: "anicb", Times, serif;
+}
+
+.orange {
+    color: rgb(255, 94, 0) !important;
+}
+
+.navbar-brand {
+    font-size: 13px;
+}
+h4{
+    font-family: "anicb" !important; 
+}
+h4::before, h4::after { 
+    content: " ij "; 
+    font-family: "tngani" !important; 
+    color:rgb(255, 94, 0) !important;
+    font-size: 1.3rem; vertical-align:top; 
+}
+.selection{
+    font-family: "anicb" !important;
+}
+.orange{
+    color:rgb(255, 94, 0) !important;
+}
+.symbole{
+text-decoration: underline !important;
+}
+.symbole::before,.symbole::after{
+    content: " b "; 
+    font-family: "tngani" !important; 
+
+}
+.card{
+    background-image: url(./bg_light.png);
+    background-repeat: repeat;
+    font-family: "anicb" !important;
+     
+}
+.card-text{
+    font-family: "partybusiness" !important; 
+    font-style: normal !important;
+    color:whitesmoke !important;
+    font-size:1.5rem;
+}
+.corps{
+    background-image: url(./bg_light.png);
+    background-repeat: repeat;
+}
+.dead{
+    
+    position: absolute;
+    top: 15%;
+    left: 28%;
+  
+}
+.gimli{
+    font-family: "partybusiness" !important; 
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    font-size: 2rem;
+    line-height :8%;
+   
+    border-bottom:  5px solid rgb(255, 94, 0) !important; 
+    color: antiquewhite;
+}
+.fellows {
+    background-image: url(./bg_light.png);
+    /* background-repeat: repeat; */
+}
+.thering{
+    background-image: url(./bg_dark.png);
+color:whitesmoke;
+}
+.thering p{
+    font-family: "partybusiness" !important; 
+    font-style: normal !important;
+}
+.thering hr{
+    width: 22%;
+    border:3px solid rgb(255, 94, 0);
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    tranform:skew(-30deg);
+   
+}
+.thering .btn{
+    box-shadow: 8px 8px 12px #aaa;
+   left:63%;
+   top:33%;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    tranform:skew(-30deg);    
+}
+.thering .img{
+    background-image: url(./coin_sauron.png);
+  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.weneedyou{
+    width: 83%;
+    height: 83%;;
+}
+.hunters{
+    background-image: url(./bg_light.png);
+    background-repeat: repeat;
+}
+.oblique{
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    tranform:skew(-30deg);
+
+    width: 120px !important;
+    text-align: right;
+    background-image: url(./the_ring.png) !important;
+    background-size: 38px 35px !important;
+    background-repeat: no-repeat !important;
+    background-image: rgb(255, 94, 0);
+}
+.petit{
+    font-size: 1.4rem;
+}
+.nolist{
+    color:black !important;
+}
+.about{
+    background-image: url(./bg_dark.png);
+    background-repeat: repeat;
+
+}
+.about h4{
+    color:whitesmoke;
+}
+
+.about hr{
+    width: 22%;
+    border:3px solid rgb(255, 94, 0);
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    tranform:skew(-30deg);
+    
+   
+}
+.card-header{
+    background-color: rgb(255, 94, 0);
+    color:whitesmoke;
+}
+.background_table{
+background-color: gray !important;
+}
+.border-bottom{
+    border-bottom: solid 2px grey !important;
+}
